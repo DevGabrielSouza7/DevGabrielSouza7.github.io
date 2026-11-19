@@ -1,47 +1,8 @@
-{
-  "packageId": "io.github.devgabrielsouza7.memoriaativa",
-  "host": "devgabrielsouza7.github.io",
-  "name": "Memória Ativa",
-  "launcherName": "MemóriaAtiva",
-  "display": "standalone",
-  "themeColor": "#00152B",
-  "themeColorDark": "#000000",
-  "navigationColor": "#000000",
-  "navigationColorDark": "#000000",
-  "navigationDividerColor": "#000000",
-  "navigationDividerColorDark": "#000000",
-  "backgroundColor": "#00152B",
-  "enableNotifications": true,
-  "startUrl": "/",
-  "iconUrl": "https://devgabrielsouza7.github.io/icon-512.png",
-  "maskableIconUrl": "https://devgabrielsouza7.github.io/icon-maskable-512.png",
-  "splashScreenFadeOutDuration": 300,
-  "signingKey": {
-    "path": "C:\\Users\\07gab\\MemoriaAtiva-TWA\\android.keystore",
-    "alias": "android"
-  },
-  "appVersionName": "2",
-  "appVersionCode": 2,
-  "shortcuts": [],
-  "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "https://devgabrielsouza7.github.io/manifest.json",
-  "fallbackType": "customtabs",
-  "features": {},
-  "alphaDependencies": {
-    "enabled": false
-  },
-  "enableSiteSettingsShortcut": true,
-  "isChromeOSOnly": false,
-  "isMetaQuest": false,
-  "fullScopeUrl": "https://devgabrielsouza7.github.io/",
-  "minSdkVersion": 24,
-  "orientation": "portrait",
-  "fingerprints": [],
-  "additionalTrustedOrigins": [],
-  "retainedBundles": [],
-  "protocolHandlers": [],
-  "fileHandlers": [],
-  "launchHandlerClientMode": "",
-  "displayOverride": [],
-  "appVersion": "2"
-}
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.devgabrielsouza7.memoriaativa",
+    "sha256_cert_fingerprints": ["8B:1A:E7:78:6A:F8:43:4D:AE:14:67:39:68:05:FD:F2:E7:21:33:A4:32:25:6F:7B:6B:EF:CF:15:F1:63:48:99"]
+  }
+}]
